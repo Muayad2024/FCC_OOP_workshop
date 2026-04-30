@@ -5,6 +5,8 @@ class Employee:
         'mid-level': 3000,
         'senior': 4000,
     }
+    """ Here we have attributes start with underscore and property methods without underscore, 
+    usually we create an attributes with help of the property setters"""
 
     def __init__(self, name, level):
         self.name = name
